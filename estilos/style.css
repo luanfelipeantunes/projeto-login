@@ -88,7 +88,12 @@ span#key, span#person{
     border-radius: 5px;
 }
 
+input#entrar:hover{
+    background-color: #a33c00dc;
+}
+
 input#esqueciSenha{
     background-color: aliceblue;
     color: rgba(34, 34, 34, 0.863);
 }
+
