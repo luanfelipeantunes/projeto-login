@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 1050px) {
+
+    body{
+        background-image: linear-gradient(to top, #BDAF70, #D1BC9F, #433721);
+    }
+
+   h1, p{
+    margin-left: 320px;
+    width: 500px;
+   }
+
+    main{
+        width: 800px;
+        margin-left: 50px;
+    }
+
+    div#foto{
+        position: absolute;
+        left: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 318px;
+    }
+
+    div.inputs, .botao{
+        margin-left: 400px;
+        width: 350px;
+    }
+
+    .text{
+        width: 280px;
+    }
+
+    
+    
+}
+
+
+@media screen and (min-width: 1050px) {
+
+    body{
+        background-image: linear-gradient(to top, #BDAF70, #D1BC9F, #433721);
+    }
+
+    header h1, header p{
+        width: 35vw;
+        text-align: center;
+    }
+
+    main{
+        margin: 0px;
+        margin-left: 70px;
+        width: 1000px;
+    }
+
+    div#foto{
+        position: absolute;
+        width: 500px;
+        height: 318px;
+        margin: 0px 0px 0px 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        right: -1px;
+        top: -1px;
+    }
+
+    form{
+        text-align: left;
+    }  
+
+    div.inputs{
+        margin: 0px 0px 10px 60px;
+        width: 400px;
+    }
+
+    .text{
+        width: 300px;
+    }
+
+    .botao{
+        margin: 0px 0px 0px 60px;
+        width: 400px;
+    }
+}

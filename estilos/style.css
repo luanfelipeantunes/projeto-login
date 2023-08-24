@@ -17,7 +17,7 @@ main{
     position: relative;
     background-color: aliceblue;
     margin: auto;
-    width: 80vw;
+    width: 325px;
     padding: 10px;
     top: 50%;
     left: 50%;
@@ -30,11 +30,12 @@ div#foto{
     background-size: cover;
     background-position: center center;
     height: 200px;
-    width: 320px;
+    width: 346px;
+    margin-right: 0px;
     margin-left: -10px;
     margin-top: -11px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     margin-bottom: 20px;
 }
 
@@ -78,7 +79,7 @@ span#key, span#person{
 }
 
 .botao{
-    width: 70vw;
+    width: 310px;
     padding: 8px;
     background-color: #8c3503b0;
     color: white;
@@ -88,8 +89,9 @@ span#key, span#person{
     border-radius: 5px;
 }
 
-input#entrar:hover{
+input#entrar:hover, input#esqueciSenha:hover{
     background-color: #a33c00dc;
+    cursor: pointer;
 }
 
 input#esqueciSenha{
