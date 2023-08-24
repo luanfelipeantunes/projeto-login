@@ -26,12 +26,14 @@
 
         <div class="inputs">
             <label for="email"> <span id="person" class="material-symbols-outlined">person</span> 
-                <input class="text" id="email" type="email" placeholder="Seu e-mail"> 
+                <input class="text" id="email" type="email" placeholder="Seu e-mail" required> 
             </label> <br>
         </div>
 
         <div class="inputs">
-            <label for="senha"><span id="key" class="material-symbols-outlined">key</span> <input class="text"  id="senha" type="password" placeholder="Sua senha"></label> <br>
+            <label for="senha"><span id="key" class="material-symbols-outlined">key</span> 
+                <input class="text"  id="senha" type="password" placeholder="Sua senha" required minlength="8">
+            </label> <br>
         </div>
 
         <input class="botao" id="entrar" type="submit" value="Entrar"><br>

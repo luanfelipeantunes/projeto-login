@@ -55,6 +55,19 @@ input{
     border-radius: 10px;
 }
 
+
+input#email:invalid, input#senha:invalid{
+    border: 2px solid red;
+}
+input#email:invalid::placeholder, input#senha:invalid::placeholder{
+    color: red;
+}
+
+
+input:focus{
+    background-color: #BFB38E;
+}
+
 div.inputs{
     background-color: #BFA863;
     height: 41px;
@@ -76,6 +89,7 @@ span#key, span#person{
     padding: 5px;
     width: 200px;
     margin-top: -36px;
+    border: 1px solid black;
 }
 
 .botao{
