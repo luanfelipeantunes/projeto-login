@@ -24,6 +24,7 @@ main{
     left: 50%;
     border-radius: 20px;
     transform: translate(-55%, -50%);
+    transition: 1s ease;
 }
 
 div#foto{
@@ -80,7 +81,7 @@ span#key, span#person{
    margin-right: 1px;
     padding: 5px;
     width: 200px;
-    margin-top: -36px;
+    margin-top: -43px;
     border: 1px solid black;
 }
 

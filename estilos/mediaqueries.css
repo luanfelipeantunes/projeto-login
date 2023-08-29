@@ -14,15 +14,16 @@
     main{
         width: 800px;
         margin-left: 50px;
+        transition: 1s ease;
     }
 
     div#foto{
         position: absolute;
-        left: 10px;
+        width: 45%;
+        height: calc(100% + 1px);
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
-        height: 318px;
     }
 
     div.inputs, .botao{
@@ -31,7 +32,7 @@
     }
 
     .text{
-        width: 280px;
+        width: calc(100% - 50px)
     }
 
     
@@ -54,6 +55,7 @@
         margin: 0px;
         margin-left: 70px;
         width: 1000px;
+        transition: 1s ease;
     }
 
     div#foto{
@@ -78,7 +80,7 @@
     }
 
     .text{
-        width: 300px;
+        width: 350px;
     }
 
     .botao{
